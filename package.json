@@ -9,7 +9,8 @@
     "LICENSE"
   ],
     "scripts": {
-        "build": "tsc"
+        "build": "tsc",
+        "postbuild": "cp ./nodes/YourGPT/yourgpt.png dist/nodes/YourGPT/yourgpt.png"
     },
     "author": "YourGPT",
     "license": "MIT",
