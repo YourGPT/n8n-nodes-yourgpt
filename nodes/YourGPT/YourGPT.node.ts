@@ -29,7 +29,7 @@ export class YourGPT implements INodeType {
 		outputs: [NodeConnectionType.Main],
 		credentials: [
 			{
-				name: 'yourGPTApi',
+				name: 'YourGPTApi',
 				required: true,
 			},
 		],
