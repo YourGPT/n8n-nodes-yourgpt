@@ -1,0 +1,32 @@
+{
+    "name": "n8n-nodes-yourgpt",
+    "version": "1.0.0",
+    "description": "Integrate YourGPT AI chatbot node into your n8n workflows",
+    "main": "index.js",
+    "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "YourGPT",
+    "license": "MIT",
+    "keywords": ["n8n", "yourgpt", "n8n-nodes", "custom-node", "chatbot", "community-node"],
+    "devDependencies": {
+        "typescript": "^4.5.5"
+    },
+    "dependencies": {
+        "n8n-workflow": "^1.0.0"
+    },
+    "n8n": {
+        "n8nNodesApiVersion": 1,
+        "credentials": [
+            "dist/credentials/YourGPTApi.credentials.js"
+            ],
+        "nodes": [
+           "dist/nodes/YourGPT/YourGPT.node.js"
+        ]
+}
+}
