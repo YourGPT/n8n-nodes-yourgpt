@@ -1,6 +1,6 @@
 {
     "name": "n8n-nodes-yourgpt",
-    "version": "1.0.1",
+    "version": "1.0.4",
     "description": "Integrate YourGPT AI chatbot node into your n8n workflows",
     "main": "index.js",
     "files": [
