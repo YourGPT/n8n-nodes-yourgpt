@@ -20,6 +20,10 @@
     "dependencies": {
         "n8n-workflow": "^1.0.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YourGPT/n8n-nodes-yourgpt.git"
+      },
     "n8n": {
         "n8nNodesApiVersion": 1,
         "credentials": [
