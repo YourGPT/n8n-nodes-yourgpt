@@ -15,9 +15,7 @@
     "license": "MIT",
     "keywords": ["n8n", "yourgpt", "n8n-nodes", "custom-node", "chatbot", "community-node"],
     "devDependencies": {
-        "typescript": "^4.5.5"
-    },
-    "dependencies": {
+        "typescript": "^4.5.5",
         "n8n-workflow": "^1.0.0"
     },
     "repository": {
